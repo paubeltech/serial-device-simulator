@@ -1,0 +1,12 @@
+# Configuration Parameters to run the simulator
+IP_ADDR: "localhost"
+PORT: 5050
+FILENAME: "../samples/da-286-addr-A.txt"
+# Protocol Format
+STX: "{"
+ETX: "}"
+DEVICE_ADDR: "A"
+CHECKSUM_USED: "Yes"
+# Device Model Name for Module to load
+DEV_MODEL: "doubledda286"
+
